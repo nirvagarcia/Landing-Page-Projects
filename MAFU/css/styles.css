@@ -1,0 +1,433 @@
+
+/*----------------------------------------------------------------------------*/
+/*CSS COLORES PERSONALIZADOS por chifera sufrida*/
+
+.bg-gris-oscuro {
+    background-color: #282828;
+}
+ 
+.bg-fondo-lading-page {
+    background-color: #111010;
+}
+
+.bg-fondo-footer {
+    background-color: #AD541D;
+}
+
+
+.bg-planes {
+    background-color: #2E2E2E;
+}
+
+.text-planes {
+    color: #2E2E2E;
+}
+
+.border-planes {
+    background-color: #2E2E2E;
+
+}
+
+
+.btn-naranja-mafu {
+    background-color: #AD541D; 
+}
+
+.btn-naranja-mafu:hover {
+    background-color: #723713; 
+}
+
+.btn-outline-naranja-mafu {
+    background-color: #AD541D;
+}
+
+
+.texto-bold-naranja {
+    color:#AD541D
+}
+
+.text-blanco-humo {
+    color: whitesmoke;
+}
+
+
+
+.link-blanco-smoke {
+    color: #B6B2B5;  
+}
+
+.link-blanco-smoke:hover {
+    color: #AD541D; 
+}
+
+.link-blanco-smoke:focus {
+    color: #AD541D; 
+}
+
+.link-blanco-footer {
+    color: #c5c2c4;  
+}
+
+.link-blanco-footer:hover {
+    color: #f1eff1; 
+}
+
+.link-blanco-footer:focus {
+    color: #f1eff1; 
+}
+
+
+
+.btn-empieza-ya {
+    color: #B6B2B5; 
+    background-color: #AD541D; 
+}
+
+.btn-empieza-ya:hover {
+    color: #B6B2B5;
+    background-color: #723713; 
+}
+
+
+.btn-empieza-ya:focus {
+    background-color: #723713; 
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+/*CSS GENERALES*/
+
+
+body{ /*AD541D*/
+    font-family: 'Montserrat', sans-serif;
+    background-color: #111010;    
+    color: #B6B2B5; 
+    scroll-behavior: smooth;
+}
+
+
+
+
+/*----------------------------------------------------------------------------*/
+/*CSS NAVBAR*/
+
+.container-logo  {
+    padding-left: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-logo a {
+    padding-left: 6px;
+}
+
+#container-uls-nav-mafu {
+    padding-left: 100px;
+    padding-right: 0px;
+}
+
+#container-nav-mafu li{
+    padding-right: 30px;
+}
+
+#container-perfil-navbar {
+    padding-right: 30px;
+}
+.navbar-brand {
+
+}
+.dropdown-menu {
+    transform: translate(-60%, 0);
+}
+#container-search-navbar {
+    padding-right: 0px;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/*CSS HOME*/
+
+#container-home-mafu .lead {
+    padding-top: 7px;
+    padding-bottom: 7px;   
+}
+
+#container-imagen-home {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#container-botones a{
+    padding-right: 10px;
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+/*CSS SEGMENTOS*/
+
+#container-segmento {
+    padding: 60px;
+}
+
+#container-segmentos h2 {
+    color: #111010;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+#container-segmento img {
+    padding-bottom: 20px;
+}
+
+#container-segmentos {
+    padding-bottom: 100px;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/*CSS QUIENES SOMOS*/
+
+#container-motomasters h2 {
+    padding-top: 100px;
+    color: #f1eff1;    
+}
+
+#container-motomasters span{
+    font-size: 50px;
+}
+
+#container-imagen-grande-moto img {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+#container-imagenes-moto img{
+padding-bottom: 15px;
+}
+
+#container-imagenes-moto p{
+    padding-bottom: 30px;
+    color: #D0C3C3;
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+/*CSS ALIADOS*/
+
+#container-aliados h2 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color: #f1eff1;
+}
+
+
+#container-carrusel .card-body h4 {
+    font-size: 20px;
+}
+
+/*----------------------------------------------------------------------------*/
+/*CSS MEMBRESIAS*/
+
+
+
+#container-titulo-membresias h2 {
+    padding-top: 150px;
+    color: #f1eff1;
+}
+
+.etiqueta-mensual {
+    position: absolute;   
+    z-index: 999;  
+    width: 100%;
+    display: block;
+}
+
+.etiqueta-mensual .badge {
+  float: right;
+  -webkit-transform: rotate(33deg);
+          transform: rotate(33deg);
+  right: -35px;
+  top: 15px;
+  position: relative;
+  text-align: center;
+  width: 140px;
+  font-size: 14px;
+  margin: 0;
+  padding: 12px 1px;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-weight: bolder;
+  background: #5C5C5C;
+}
+
+#container-membresias h2 {
+    color: #F0F0E5;
+    padding: 10px;
+}
+
+#container-membresias h3 {
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+
+#container-membresias ul li {
+    color: #e2e2db;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+#container-membresias ul li span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+#container-membresias button {
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #F0F0E5;
+}
+
+#container-membresia col{
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+#container-imagen-membresia img {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*----------------------------------------------------------------------------*/
+/*CSS VIDEO ABOUT THE TEAM*/
+#afterlike h2 {
+    color: #f1eff1;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/*CSS DESPEDIDA*/
+
+#container-despedida {
+    padding: 150px;
+}
+
+#container-despedida h1 {
+    padding-top: 150px;    
+}
+
+#container-despedida p {
+    padding: 20px;    
+}
+
+#container-botones-despedida a{
+    padding-right: 30px; 
+}
+
+#ayudita-despedida {
+    padding-bottom: 150px;
+}
+
+/*----------------------------------------------------------------------------*/
+/*CSS FOOTER*/
+footer h5 {
+    padding-bottom: 15px;
+}
+
+footer li {
+    padding-bottom: 10px;
+}
+
+footer ul {
+    padding-bottom: 20px;
+}
+
+footer span {
+    color: #D0C3C3;
+    font-weight: lighter;
+}
+@media (max-width: 991px){
+    #container
+    .navbar-toggler {
+        margin-right: 30px;
+    }
+    #container-perfil-navbar{
+        float: right;
+        alignment: right;
+
+    }
+}
+@media (min-width: 992px) {
+    #container-perfil-navbar{
+        order:1
+    }
+}
+ @media (max-width: 1428px) {
+    
+    /*----------------------------------------------------------------------------*/
+    /*CSS NAVBAR*/
+    .container-logo  {
+        padding-left: 40px;
+    }
+
+    #container-uls-nav-mafu {
+        padding-left: 20px;
+        padding-right: 0px;
+
+    }
+    container-nav-mafu li{
+        padding-right: 7px;
+    }
+     .navbar-toggler {
+         margin-right: 30px;
+     }
+
+
+     /*----------------------------------------------------------------------------*/
+    /*CSS HOME*/
+
+    #container-botones a{
+        padding-right: 0px;
+    }
+
+     /*CSS QUIENES SOMOS*/
+     #container-imagenes-moto {
+         width: border-box;
+         align-content: center;
+     }
+
+     #container-imagenes-moto p{
+         padding-bottom: 30px;
+         color: #D0C3C3;
+     }
+
+    /*----------------------------------------------------------------------------*/
+    /*CSS SEGMENTOS*/
+    
+
+    #container-abajito-segmento {
+        justify-content: left;
+        align-items: left;
+    }
+    
+    /*----------------------------------------------------------------------------*/
+    /*CSS DESPEDIDA*/
+    #container-despedida h5 {
+        font-size: 5vh;
+    }
+   
+    #container-despedida img {        
+        width: 200px;
+    }
+
+}
+
+
+
+
+  
