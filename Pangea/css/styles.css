@@ -1,0 +1,181 @@
+/*Colores genéricos*/
+/*Colores items del navbar (hover y static jiji)*/
+
+
+/*Colores boton universal (tmb hover y static)*/
+
+
+.span-rosita {
+    color: #C66A5D;
+}
+
+.text-personalizado {
+    color:#C66A5D ;
+}
+
+.bg-blanco {
+    background-color: white;
+}
+
+
+/*Para boton de perfil en navbar*/
+.link-rosita {
+    color: #C66A5D;  
+}
+
+.link-rosita:hover {
+    color: #944d43; 
+}
+
+
+/*para boton navbar en landing page*/
+.boton-universal-trans {
+    border:1px solid #C66A5D;
+    color: #C66A5D;
+    background-color: white;
+    border-radius: 25px;
+    padding: 8px 15px;
+}
+
+.boton-universal-trans:hover {    
+    color: aliceblue;
+    background-color: #C66A5D; 
+    transition: background-color 0.2s ease;
+}
+
+
+
+/*para botones universales en landing page*/
+.boton-universal-rell {
+    color: aliceblue;
+    background-color: #C66A5D;
+    border-style: none;
+    border-radius: 25px;
+    padding: 8px 15px;   
+}
+
+.boton-universal-rell:hover {    
+    background-color: #944d43; 
+    transition: background-color 0.2s ease;
+}
+
+
+
+
+/*Links en footer*/
+.link-en-footer {
+    color: #686868;  
+    text-decoration: none;
+}
+
+.link-en-footer:hover {
+    color: #C66A5D; 
+    transition: background-color 0.2s ease;
+}
+
+
+
+
+
+/*CSS general------------------------------------------------------------------------------------------------------*/
+body{
+    font-family: 'Montserrat', sans-serif;   
+    scroll-behavior: smooth;    
+}
+
+
+/*CSS del navbar------------------------------------------------------------------------------------------------------*/
+#logo-tf {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #4d4d4d;  
+    padding: 15px;
+}
+
+/*CA6761*/
+#container-items-navbar {
+    padding-left: 2px;
+}
+
+#container-items-navbar li a{
+    padding-left: 20px;
+    font-size: 18px;
+    color: #1f1514;
+}
+
+#navbarNavDropdown a:hover {
+    color: #C66A5D;
+}
+
+
+/*CSS del home------------------------------------------------------------------------------------------------------*/
+#container-home-tf {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://images8.alphacoders.com/748/748446.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    padding: 8rem!important;
+}
+
+
+/*CSS segmentos clientes------------------------------------------------------------------------------------------------------*/
+#card-caracteristicas {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    border-color: white; 
+}
+
+
+/*CSS Membresias------------------------------------------------------------------------------------------------------*/
+.card .btn-outline-dark{  
+    border:1px solid #C66A5D;
+    color: #C66A5D;
+    background-color: white;   
+    border-radius: 25px;
+    padding: 8px 15px;
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+    background:#C66A5D;
+    border:1px solid #C66A5D;
+    color:white;
+}
+
+.card:hover .btn-outline-dark{
+    color:white;
+    background:#944d43;
+    border:1px solid #944d43;
+}
+
+
+/*CSS de Noticias------------------------------------------------------------------------------------------------------*/
+#imagen-opiniones {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+
+
+
+@media (max-width: 990px) {
+
+    /*CSS del navbar------------------------------------------------------------------------------------------------------*/
+    #container-items-navbar {
+        padding-left: 0px;
+    }
+    
+    #container-items-navbar li a{
+        padding-left: 0px;
+    }
+
+
+
+
+}

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">  
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pangea</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/web-icon.png">
+    <!-- CSS Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+
+  <body>
+   <!-- Navbar  -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-blanco sticky-top shadow-sm">
+      <div class="container" id="container-navbar-tf">
+        <a class="navbar-brand me-2" id="logo-tf" href="#0">
+          <img src="img/ponyo-head.png" height="45"/>
+          Pangea
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="container-items-navbar"> <!-- me-auto mb-2 mb-lg-0 ESTA COSA hizo que los links se vayan a la izquierda y los botones derecha-->
+            <li class="nav-item">
+              <a class="nav-link" href="#container-home-tf">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#container-segmentos-tf">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#container-servicios-tf">Servicios</a>
+            </li>    
+            <li class="nav-item">
+              <a class="nav-link" href="#container-membresias-tf">Membresías</a>
+            </li>     
+            <li class="nav-item">
+              <a class="nav-link" href="#container-noticias-tf">Noticias</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="#container-descarga-tf">Descarga</a>
+            </li>         
+          </ul>          
+          <div class="d-flex align-items-center">            
+            <button class="boton-universal-trans me-3" href="#">Try it Free</button>          
+            <div class="dropdown-center" id="container-perfil-navbar">
+              <a href="#" class="d-block link-rosita text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" >
+                <img src="img/web-icon.png" alt="mdo" width="32" height="32">
+              </a>
+              <ul class="dropdown-menu dropdown-menu-light dropdown-center">
+                <li><a class="dropdown-item" href="#">Iniciar Sesión</a></li>
+                <li><a class="dropdown-item" href="#">Ajustes</a></li>
+                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li><hr class="dropdown-divider-dark"></li>
+                <li><a class="dropdown-item" href="#">Registrate</a></li>
+              </ul>
+            </div>              
+          </div>       
+        </div>
+      </div>
+   </nav>
+
+
+    <!-- Home -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="position-relative overflow-hidden p-md-5 text-center bg-light" id="container-home-tf">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 fw-bold py-2">Disfruta las mejores películas de Anime</h1>
+        <p class="lead font-weight-normal py-2">Vive una increible experiencia en Pangea, una plataforma de streaming con +100 peliculas dirigidas por Studio Ghibli</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-4 mb-lg-3">
+          <a type="button" class="btn btn-lg px-0 py-0 me-md-2 fw-bold" href="https://www.figma.com/file/0pqv4EmMF2lC3y4bGfBYTr/Examen-Final-IHC-Nirvana-Garc%C3%ADa?node-id=0%3A1&t=hpWz5Clxxg2qxQAW-1" target="_blank"> <img src="img/google-play.png" height="85"> </a>
+          <a type="button" class="btn btn-lg px-0 py-0 me-md-2 fw-bold" href="https://www.figma.com/file/0pqv4EmMF2lC3y4bGfBYTr/Examen-Final-IHC-Nirvana-Garc%C3%ADa?node-id=0%3A1&t=hpWz5Clxxg2qxQAW-1" target="_blank"> <img src="img/app-store.png" height="85"> </a>
+        </div>      
+      </div>      
+    </div>
+
+
+    <!-- Clientes -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="container px-4 py-5 p-5" id="container-segmentos-tf">
+        <h2 class="pb-2 fw-bold display-5 mb-3 text-center">Nuestros Clientes</h2>    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id="card-caracteristicas" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/10/6-Whisper-Of-The-Heart-Cropped.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Whisper of the Heart</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto"></li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>Shizuku, an aspiring writer, meets Seiji, a boy who wants to become a master luthier. The two fall in love and work simultaneously towards achieving their independent goals.</small>
+                  </li>               
+                </ul>
+              </div>
+            </div>
+          </div>    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id="card-caracteristicas" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://www.cartoonbrew.com/wp-content/uploads/2021/04/fireflies_5.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Grave of the Fireflies</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto"></li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>A devastating meditation on the human cost of war, follows Seita, a teenager charged with the care of his younger sister, Setsuko, after an American firebombing during World War.</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id="card-caracteristicas" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://images-prod.dazeddigital.com/900/azure/dazed-prod/1180/1/1181603.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">My Neighbor Totoro</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto"></li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>Mei and Satsuki shift to a new house to be closer to their mother who is in the hospital. They soon become friends with Totoro, a giant rabbit-like creature who is a spirit.</small>
+                  </li>                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+   </div>
+
+
+    <!-- Servicios -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="pb-lg-14 py-10 p-5" id="container-servicios-tf">
+      <div class="container px-4 px-lg-0">
+        <div class="row">
+          <div class="offset-lg-2 col-lg-8 col-md-12">
+            <div class="mb-8">
+              <h2 class="fw-bold display-5 mb-3">Servicios amados en <span class="span-rosita">Pangea</span> </h2>
+              <p class="lead" style="padding-bottom:20px;">Dentro de nuestra plataforma, podrás acceder a diversas funcionalidades</p>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <div class="mb-6">
+                  <img src="img/ponyo-head.png" class="mb-4 " height="50">
+                  <h3 class="fw-semi-bold">Made with Bootstrap 5</h3>
+                  <p>Every code snippet you'll get is written in Bootstrap 5 in a way
+                    that seamlessly integrates with Geeks UI.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="mb-6">
+                  <img src="img/ponyo-head.png" class="mb-4 " height="50">
+                  <h3 class="fw-semi-bold">Documented Code</h3>
+                  <p>Simple and accessible Bootstrap 5 components &amp; lots of new
+                    flexible, customizable and reusable elements you can use across
+                    the website and application.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="mb-6">
+                  <img src="img/ponyo-head.png" class="mb-4 " height="50">
+                  <h3 class="fw-semi-bold">Gulp - toolkit to automate</h3>
+                  <p>Simple and accessible Bootstrap 5 components &amp; lots of new
+                    flexible, customizable and reusable elements you can use across
+                    the website and application.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="mb-6">
+                  <img src="img/ponyo-head.png" class="mb-4 " height="50">
+                  <h3 class="fw-semi-bold">Easy to Customize with Sass</h3>
+                  <p>Simple and accessible Bootstrap 5 components &amp; lots of new
+                    flexible, customizable and reusable elements you can use across
+                    the website and application.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="mb-6">
+                  <img src="img/ponyo-head.png" class="mb-4 " height="50">
+                  <h3 class="fw-semi-bold">80+ Flexible Components</h3>
+                  <p>Simple and accessible Bootstrap 5 components &amp; lots of new
+                    flexible, customizable and reusable elements you can use across
+                    the website and application.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="mb-6">
+                  <img src="img/ponyo-head.png" class="mb-4 " height="50">
+                  <h3 class="fw-semi-bold">Bootstrap 5 RTL-Friendly</h3>
+                  <p>Simple and accessible Bootstrap 5 components &amp; lots of new
+                    flexible, customizable and reusable elements you can use across
+                    the website and application.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+
+
+    <!-- Membresia -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="container-fluid" id="container-membresias-tf">
+      <div class="container p-5">       
+        <h2 class="fw-bold display-5 mb-3 text-center py-5 px-5">Membresías Disponibles</h2>    
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card card1 h-100 rounded-5 p-3 pt-5">
+              <div class="card-body">               
+                <h2 class="card-title">Free</h2>
+                <small>Usuarios</small>
+                <br><br>
+                <span class="h2">$10</span>/mes
+                <br><br>               
+                <ul>
+                  <li>Contiene publicidad</li>
+                  <li>Acceso a más de 50 películas</li>
+                  <li>Descarga en dispositivo a 800p</li>                  
+                </ul>
+                <div class="d-grid my-5 mx-0 px-0">
+                  <button class="btn btn-outline-dark btn-block">Empieza Ya</button>
+                </div>
+              </div>                
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card card2 h-100 rounded-5 p-3 pt-5">
+              <div class="card-body">               
+                <h2 class="card-title">Premium</h2>
+                <small>Usuario</small>
+                <br><br>
+                <span class="h2">$20</span>/mes
+                <br><br>
+                
+                <ul>
+                  <li>Sin publicidad</li>
+                  <li>Acceso a todo el catálogo de películas</li>
+                  <li>Descarga en dispotivo a 4K</li>                  
+                </ul>
+                <div class="d-grid my-5 mx-0 px-0">
+                  <button class="btn btn-outline-dark btn-block">Empieza Ya</button>
+                </div>
+              </div>                
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card card3 h-100 rounded-5 p-3 pt-5">
+              <div class="card-body">
+               
+                <h2 class="card-title">Premium B</h2>
+                <small>Empresa</small>
+                <br><br>
+                <span class="h2">$40</span>/mes
+                <br><br>                
+                <ul>
+                  <li>Cras justo odio</li>
+                  <li>Dapibus ac facilisis in</li>
+                  <li>Vestibulum at eros</li> 
+                  <div class="d-grid my-5 mx-0 px-0">
+                    <button class="btn btn-outline-dark btn-block">Empieza Ya</button>
+                  </div>                 
+                </ul>
+              </div>                
+            </div>
+          </div>
+        </div>    
+      </div>
+    </div>
+
+
+    <!-- Noticias -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="container p-5" id="container-noticias-tf">
+      <div class="row mb-2">
+        <h2 class="fw-bold display-5 mb-0 text-center py-0 px-5">Noticias <span class="span-rosita">Pangea</span> alrededor del mundo</h2>    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch p-5"> 
+          <div class="col"></div>  
+          <div class="col">   
+            <form class="d-flex align-items-center"  role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar noticia" aria-label="Search">
+              <a class="boton-universal-rell text-decoration-none" style="color:aliceblue" href="#0">Go</a>
+            </form>       
+          </div>  
+        </div>  
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-personalizado">Japan</strong>
+              <h3 class="mb-0">Nueva producción 2023</h3>
+              <div class="mb-1 text-muted">Nov 25</div>
+              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="link-en-footer">Ir a la publicación</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">              
+              <img class="bd-placeholder-img" id="imagen-opiniones" width="200" height="250"src="img/nueva-pela.jpg"> 
+            </div>
+          </div>    
+        </div>      
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-personalizado">South Corea</strong>
+              <h3 class="mb-0">Remasterizan GoGo Sim</h3>
+              <div class="mb-1 text-muted">Nov 28</div>
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="link-en-footer">Ir a la publicación</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" id="imagen-opiniones" width="200" height="250"src="img/modest-hereos.jpg">     
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-personalizado">Japan</strong>
+              <h3 class="mb-0">Nueva producción 2023</h3>
+              <div class="mb-1 text-muted">Nov 25</div>
+              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="link-en-footer">Ir a la publicación</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">              
+              <img class="bd-placeholder-img" id="imagen-opiniones" width="200" height="250"src="img/modest-hereos.jpg"> 
+            </div>
+          </div>    
+        </div>      
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-personalizado">South Corea</strong>
+              <h3 class="mb-0">Remasterizan GoGo Sim</h3>
+              <div class="mb-1 text-muted">Nov 28</div>
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="link-en-footer">Ir a la publicación</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" id="imagen-opiniones" width="200" height="250"src="img/nueva-pela.jpg">     
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Descargalo Ya -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="container my-5 p-5" id="container-descarga-tf">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3  shadow-lg">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1">Únete a la gran experiencia <span class="span-rosita">Pangea</span> </h1>
+            <p class="lead">Descarga la aplicación y disfruta de todos los servicios que Pangea ofrece y visualiza +100 películas de Studio Ghibli. Disponible en Play Store (Android), App Store (iOS) y próximamente en Desktop Version.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <a type="button" class="btn btn-lg px-0 py-0 me-md-2 fw-bold" href="https://www.figma.com/file/0pqv4EmMF2lC3y4bGfBYTr/Examen-Final-IHC-Nirvana-Garc%C3%ADa?node-id=0%3A1&t=hpWz5Clxxg2qxQAW-1" target="_blank"> <img src="img/google-play.png" height="85"> </a>
+              <a type="button" class="btn btn-lg px-0 py-0 me-md-2 fw-bold" href="https://www.figma.com/file/0pqv4EmMF2lC3y4bGfBYTr/Examen-Final-IHC-Nirvana-Garc%C3%ADa?node-id=0%3A1&t=hpWz5Clxxg2qxQAW-1" target="_blank"> <img src="img/app-store.png" height="85"> </a>
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-0 overflow-hidden" style="padding-bottom: 50px;">
+              <img class="rounded-lg-3" src="img/totoro.jpg"  width="320">
+          </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <footer class="container py-5">
+        <div class="row">      
+          <div class="col-6 col-md">
+            <img class="py-3" src="img/phone-icon.png" width="35px">    
+            <h5>Contáctanos</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="link-en-footer" href="#0">+51 986 689 120</a></li>              
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Soporte</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-en-footer" href="#0">Centro de Ayuda</a></li>
+              <li><a class="link-en-footer" href="#0">Cancelar Membresía</a></li>
+              <li><a class="link-en-footer" href="#0">Libro de Reclamaciones</a></li>
+            </ul>
+          </div>          
+          <div class="col-6 col-md">
+            <h5>Afíliate</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-en-footer" href="#0">Premium Allies</a></li>
+              <li><a class="link-en-footer" href="#0">Free Allies</a></li>
+              <li><a class="link-en-footer" href="#0">Más Aliados</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Acerca de</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-en-footer" href="#0">StartUp</a></li>
+              <li><a class="link-en-footer" href="#0">Privacidad</a></li>
+              <li><a class="link-en-footer" href="#0">Términos</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Descarga</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-en-footer" href="#0">En Android</a></li>
+              <li><a class="link-en-footer" href="#0">En iOS</a></li>
+              <li><a class="link-en-footer" href="#0">Desktop</a></li>
+            </ul>
+          </div>
+        </div>
+        <br><br>
+        <div class="border-bottom"></div>
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 ">
+            <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">© Copyright 2022 Pangea, Inc.</span>
+            </div>       
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/upcingenieria/" target="_blank"><img src="img/insta-bola.png" width="35"> </a></li>
+            <li class="ms-3"><a class="text-muted" href="https://twitter.com/UPCedu" target="_blank"><img src="img/twitter-bola.png" width="35"> </a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/company/upc-facultad-de-ingenier%C3%ADa/" target="_blank"><img src="img/linkedin-bola.png" width="35"> </a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/facuingupc" target="_blank"><img src="img/facebook-bola.png" width="35"> </a></li>
+            </ul>
+        </div>      
+    </footer>   
+
+
+
+    <!-- JavaScript Google -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
+
+
+   
